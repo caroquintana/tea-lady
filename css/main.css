@@ -1,1 +1,16 @@
-/* Escribe acá tus estilos*/
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+body {
+	background-image: url("../img/tea.jpg");
+	font-family: 'Dosis', sans-serif;
+ 	font-size: 20px;
+	color: #eef4f7;
+	line-height: 37px;
+	margin: 0px auto;
+	padding: 20px;
+  	width: 100%;
+  	height: 100%;
+  	display: inline-block;
+  	text-align: center;
+  }
+  
