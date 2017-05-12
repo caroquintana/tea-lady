@@ -14,32 +14,32 @@
 		<p>Si deseas suscribirte a nuestra caja de té mensual, rellena tus datos en el formulario</p><br>
 		<form action="">
 			<label for="Nombre Dueño"> Nombre:</label><br>
-			<input title= "Ingrese su nombre" type="text" name=" nombre" required/><br>
-			<label for="Nombre mascota"> Apellido:</label><br>
-			<input title="Ingrese nombre mascota" type="text" name ="mascota" required/><br>
+			<input title= "Ingrese su nombre" type="text" id =" nombre" required/><br>
+			<label for="Apellido"> Apellido:</label><br>
+			<input title="Ingrese su apellido" type="text" id ="apellido" required/><br>
 			<label for="Email">Correo Electrónico:</label><br>
-			<input title="Ingrese e-mail" type="email" name="email" required/><br>
+			<input title="Ingrese su e-mail" type="email" id="email" required/><br>
 			<label for="Dirección">Dirección: </label><br>
-			<input title="Ingrese la dirección" type="text" name="direccion" required/><br>
+			<input title="Ingrese la dirección" type="text" id="direccion" required/><br>
 			<label for="Teléfono">Teléfono:</label><br>
-			<input title="Ingrese número de teléfono" type="number" name="telefono" required/><br>
+			<input title="Ingrese número de teléfono" type="number" id="telefono" required/><br>
 			<label for="">Selecciona un pack:</label><br>
-			<select name="" id="" required></>
-				<option value="">Escoje tu opción required</option>
-				<option value="tenegro">Pack de té clásico (Té negro)</option>
-				<option value="frutales">Pack frutales (Hierbas y té con aromatizado con fruta</option>
-				<option value="tevariedades">Pack variedades (Té verde, rojo y blanco)</option>
+			<select name="" id="datosusuario" required></>
+				<option value="">Escoje tu opción:</option>
+				<option value="Pack de té clásico (Té negro)">Pack de té clásico (Té negro)</option>
+				<option value="Pack frutales (Hiebas y té con aromatizado con frutas">Pack frutales (Hierbas y té con aromatizado con fruta</option>
+				<option value="Pack variedades (Té verde, rojo y blanco">Pack variedades (Té verde, rojo y blanco)</option>
 			</select>
 			<label for=""></label><br>
 			<input title="checkbox" type="checkbox" name="checkbox"> Recibe nuestro newsletter mensual con actividades y sorteos<br>
-			<button type="submit" form="form1" value="Submit" onclick="mostrarData()">Enviar</button>
+			<button type="submit" form="form1" value="Submit" onclick="mostrarData()" onclick="mostrarCliente()">Enviar</button>
 		</form>
 	</section>
 	<section id="clientes">
-		<!-- Acá van los datos de ingresados por los clientes -->
+		<h3>Datos del cliente:</h3>
 	</section>
 	<section id="productos">
-		<!-- Acá puedes crear lo que quieras-->
+		<h3>Productos escogidos:</h3>
 	</section>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
